@@ -2021,6 +2021,13 @@
 			"settings": {
 				"fontStyle": "italic"
 			}
+		},
+		{
+			"name": "< >",
+			"scope": "punctuation.definition.typeparameters.begin, punctuation.definition.typeparameters.end",
+			"settings": {
+				"foreground": "#ffffffa0"
+			}
 		}
 	],
 	"type": "dark"
