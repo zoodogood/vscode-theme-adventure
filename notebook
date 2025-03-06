@@ -1,0 +1,33 @@
+{
+	"reminds": [
+		"h{} — is chronology",
+		"h{#58942e, #ce9178} for strings"
+	],
+
+	"paste": {
+
+	},
+	"comments": "#8bafde",
+	"list.errorForeground": "#a089c7",
+	"list.warningForeground": "#a496bc",
+	"list.inactiveSelectionBackground": "#d481ce1c",
+	"minimap.warningHighlight": "#a496bc",
+	"editorWarning.foreground": "#a496bc",
+	"editorUnnecessaryCode.opacity": "#000b",
+	// MARK: 2024
+	"editorGutter.deletedBackground": "#5f465f",
+	"minimapGutter.deletedBackground": "#5f465f",
+	"editorOverviewRuler.deletedForeground": "#5f465f",
+	"gitDecoration.deletedResourceForeground": "#5f465f",
+	"gitDecoration.stageDeletedResourceForeground": "#5f465f",
+	"focusBorder": "#5f565faa",
+	// MARK: Symbols
+	"self": {
+		"name": "self keyword",
+		"scope": "variable.parameter.function.language.special.self,variable.language.this",
+		"settings": {
+			"foreground": "#ffffff30",
+			"fontStyle": "italic"
+		}
+	}
+}
