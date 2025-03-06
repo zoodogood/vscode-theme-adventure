@@ -57,6 +57,7 @@
 		"editorBracketMatch.background": "#0064001a",
 		"editorBracketMatch.border": "#888888",
 		"editorCodeLens.foreground": "#999999",
+		"editorCommentsWidget.rangeActiveBackground": "#694f4f",
 		"editorCursor.background": "#000000",
 		"editorCursor.foreground": "#aeafad",
 		"editorError.background": "#b73a3400",
@@ -69,9 +70,9 @@
 		"editorGroupHeader.tabsBorder": "#fb6e0700",
 		"editorGutter.addedBackground": "#587c0c",
 		"editorGutter.background": "#181818",
-		"editorGutter.commentRangeForeground": "#c5c5c5",
+		"editorGutter.commentRangeForeground": "#694f4f",
 		"editorGutter.deletedBackground": "#5f465f",
-		"editorGutter.foldingControlForeground": "#c5c5c5",
+		"editorGutter.foldingControlForeground": "#694f4f",
 		"editorGutter.modifiedBackground": "#2d418c",
 		"editorHoverWidget.background": "#252526",
 		"editorHoverWidget.border": "#454545",
@@ -128,7 +129,7 @@
 		"list.activeSelectionForeground": "#ffffff",
 		"list.dropBackground": "#383b3d",
 		"list.errorForeground": "#a089c7",
-		"list.focusBackground": "#fb6e073e",
+		"list.focusBackground": "#d481ce1c",
 		"list.focusForeground": "#cccccc",
 		"list.highlightForeground": "#ea7e2e",
 		"list.hoverBackground": "#232323",
@@ -250,8 +251,8 @@
 		"terminal.selectionBackground": "#ffffff40",
 		"terminalCursor.background": "#fb6e0789",
 		"terminalCursor.foreground": "#ffffff",
-		"textLink.foreground": "#fb6e07",
 		"textLink.activeForeground": "#b74ece",
+		"textLink.foreground": "#fb6e07",
 		"titleBar.activeBackground": "#171717",
 		"titleBar.activeForeground": "#cccccc",
 		"titleBar.border": "#2b2b2b",
@@ -1219,7 +1220,7 @@
 		},
 		{
 			"name": "[VSCODE-CUSTOM] Markdown Underline Link/Image",
-			"scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
+			"scope": "markup.underline.link",
 			"settings": {
 				"foreground": "#ffffff30"
 			}
@@ -2025,6 +2026,12 @@
 		{
 			"name": "< >",
 			"scope": "punctuation.definition.typeparameters.begin, punctuation.definition.typeparameters.end",
+			"settings": {
+				"foreground": "#ffffffa0"
+			}
+		},
+		{
+			"scope": "meta.type.annotation punctuation.definition.parameters.begin,meta.type.annotation punctuation.definition.parameters.end",
 			"settings": {
 				"foreground": "#ffffffa0"
 			}
