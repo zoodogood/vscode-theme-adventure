@@ -29,6 +29,7 @@
 		"diffEditor.border": "#444444",
 		"diffEditor.insertedTextBackground": "#9bb95533",
 		"diffEditor.insertedTextBorder": "#00000000",
+		"diffEditor.removedLineBackground": "#c717eb17",
 		"diffEditor.removedTextBackground": "#5a11db33",
 		"diffEditor.removedTextBorder": "#695f8a00",
 		"dropdown.background": "#3c3c3c",
@@ -2034,6 +2035,12 @@
 			"scope": "meta.type.annotation punctuation.definition.parameters.begin,meta.type.annotation punctuation.definition.parameters.end",
 			"settings": {
 				"foreground": "#ffffffa0"
+			}
+		},
+		{
+			"scope": "keyword.other.debugger",
+			"settings": {
+				"foreground": "#ecc06e"
 			}
 		}
 	],

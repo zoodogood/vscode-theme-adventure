@@ -2,7 +2,7 @@
 	"name": "zoodogood-respect-comments",
 	"displayName": "Adventure theme",
 	"description": "Highlight comments, but dim keywords and operators' using purple instead of red for errors",
-	"version": "0.0.3",
+	"version": "0.0.12",
 	"icon": "./orange.png",
 	"files": [
 		"themes/**",
@@ -11,6 +11,10 @@
 	],
 	"engines": {
 		"vscode": "^1.97.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zoodogood/vscode-theme-adventure"
 	},
 	"categories": [
 		"Themes"
