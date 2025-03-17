@@ -216,7 +216,7 @@
 		"statusBar.debuggingBackground": "#28a936",
 		"statusBar.debuggingForeground": "#ffffff",
 		"statusBar.foreground": "#ffffff",
-		"statusBar.noFolderBackground": "#6e5475",
+		"statusBar.noFolderBackground": "#171717",
 		"statusBar.noFolderForeground": "#ffffff",
 		"statusBarItem.activeBackground": "#FFFFFF25",
 		"statusBarItem.hoverBackground": "#FFFFFF25",
@@ -274,14 +274,17 @@
 		},
 		"variable.defaultLibrary": {
 			"foreground": "#ebedee"
+		},
+		"typeParameter": {
+			"foreground": "#6a915b"
 		}
 	},
 	"tokenColors": [
 		{
-			"name": "type annotation",
-			"scope": "meta.type.annotation",
+			"name": "Strings",
+			"scope": "string",
 			"settings": {
-				"foreground": "#6a915b"
+				"foreground": "#ce9178"
 			}
 		},
 		{
@@ -612,7 +615,7 @@
 		},
 		{
 			"name": "js variable readwrite",
-			"scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
+			"scope": ["variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node", "meta.object-literal.key string"],
 			"settings": {
 				"foreground": "#e06c75"
 			}
@@ -986,14 +989,14 @@
 			"name": "Support type",
 			"scope": "support.type.property-name",
 			"settings": {
-				"foreground": "#ffffffa0"
+				"foreground": "#ce9178"
 			}
 		},
 		{
 			"name": "Support type",
 			"scope": "support.constant.property-value",
 			"settings": {
-				"foreground": "#ffffffa0"
+				"foreground": "#ce9178"
 			}
 		},
 		{
@@ -1008,13 +1011,6 @@
 			"scope": "meta.tag",
 			"settings": {
 				"foreground": "#ffffffa0"
-			}
-		},
-		{
-			"name": "Strings",
-			"scope": "string",
-			"settings": {
-				"foreground": "#ce9178"
 			}
 		},
 		{
@@ -1538,7 +1534,7 @@
 			"name": "ts primitive/builtin types",
 			"scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
 			"settings": {
-				"foreground": "#ebedee"
+				"foreground": "#ce9178"
 			}
 		},
 		{
@@ -1622,7 +1618,7 @@
 			"name": "js Flow",
 			"scope": ["support.type.primitive"],
 			"settings": {
-				"foreground": "#ebedee"
+				"foreground": "#ce9178"
 			}
 		},
 		{
@@ -2038,11 +2034,17 @@
 			}
 		},
 		{
+			"scope": "meta.type.annotation",
+			"settings": {
+				"foreground": "#d19a66"
+			}
+		},
+		{
 			"scope": "keyword.other.debugger",
 			"settings": {
 				"foreground": "#ecc06e"
 			}
-		}
+		},
 	],
 	"type": "dark"
 }
