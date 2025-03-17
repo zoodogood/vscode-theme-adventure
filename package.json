@@ -22,14 +22,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Orange Fork Concentration",
-				"uiTheme": "vs-dark",
-				"path": "./themes/concentration-color-theme.json"
-			},
-			{
 				"label": "Orange Fork Balanced",
 				"uiTheme": "vs-dark",
 				"path": "./themes/balanced-color-theme.json"
+			},
+			{
+				"label": "Orange Fork Concentration",
+				"uiTheme": "vs-dark",
+				"path": "./themes/concentration-color-theme.json"
 			}
 		]
 	}
