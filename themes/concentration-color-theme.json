@@ -69,7 +69,7 @@
 		"editorGroupHeader.border": "#17171700",
 		"editorGroupHeader.tabsBackground": "#1b1b1b",
 		"editorGroupHeader.tabsBorder": "#e7650800",
-		"editorGutter.addedBackground": "#587c0c",
+		"editorGutter.addedBackground": "#54a238",
 		"editorGutter.background": "#181818",
 		"editorGutter.commentRangeForeground": "#694f4f",
 		"editorGutter.deletedBackground": "#5f465f",
@@ -161,7 +161,7 @@
 		"minimap.findMatchHighlight": "#515c6a",
 		"minimap.selectionHighlight": "#7414c42e",
 		"minimap.warningHighlight": "#a496bc",
-		"minimapGutter.addedBackground": "#587c0c",
+		"minimapGutter.addedBackground": "#54a238",
 		"minimapGutter.deletedBackground": "#5f465f",
 		"minimapGutter.modifiedBackground": "#2d418c",
 		"notificationCenter.border": "#474747",
@@ -272,6 +272,8 @@
 		"variable.constant": {
 			"foreground": "#d19a66"
 		},
+		"*.declaration": "#e06c75",
+		"variable.declaration": "#e06c75",
 		"variable.defaultLibrary": {
 			"foreground": "#ebedee"
 		},
@@ -559,7 +561,11 @@
 		},
 		{
 			"name": "support.constant.property-value.scss",
-			"scope": "support.constant.property-value.scss,support.constant.property-value.css",
+			"scope": [
+				"support.constant.property-value.scss",
+				"support.constant.property-value.css",
+				"support.constant.color.current"
+			],
 			"settings": {
 				"foreground": "#d19a66"
 			}
@@ -615,7 +621,10 @@
 		},
 		{
 			"name": "js variable readwrite",
-			"scope": ["variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node", "meta.object-literal.key string"],
+			"scope": [
+				"variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
+				"meta.object-literal.key string"
+			],
 			"settings": {
 				"foreground": "#e06c75"
 			}
@@ -982,6 +991,18 @@
 			"name": "Support",
 			"scope": "support.function",
 			"settings": {
+				"foreground": "#ecc06e"
+			}
+		},
+		{
+			"scope": "source.css support.function",
+			"settings": {
+				"foreground": "#6a915c"
+			}
+		},
+		{
+			"scope": "meta.function.variable.css support.function",
+			"settings": {
 				"foreground": "#ffffff30"
 			}
 		},
@@ -1049,20 +1070,6 @@
 			}
 		},
 		{
-			"name": "Tags",
-			"scope": "entity.name.tag",
-			"settings": {
-				"foreground": "#e06c75"
-			}
-		},
-		{
-			"name": "Attributes",
-			"scope": "entity.other.attribute-name",
-			"settings": {
-				"foreground": "#d19a66"
-			}
-		},
-		{
 			"name": "Attribute IDs",
 			"scope": "entity.other.attribute-name.id",
 			"settings": {
@@ -1079,13 +1086,6 @@
 			}
 		},
 		{
-			"name": "Selector",
-			"scope": "meta.selector",
-			"settings": {
-				"foreground": "#ffffff30"
-			}
-		},
-		{
 			"name": "Headings",
 			"scope": "markup.heading",
 			"settings": {
@@ -1097,13 +1097,6 @@
 			"scope": "markup.heading punctuation.definition.heading, entity.name.section",
 			"settings": {
 				"foreground": "#ecc06e"
-			}
-		},
-		{
-			"name": "Units",
-			"scope": "keyword.other.unit",
-			"settings": {
-				"foreground": "#e06c75"
 			}
 		},
 		{
@@ -2034,6 +2027,12 @@
 			}
 		},
 		{
+			"scope": "variable.parameter.misc.css",
+			"settings": {
+				"foreground": "#ffffffa0"
+			}
+		},
+		{
 			"scope": "meta.type.annotation",
 			"settings": {
 				"foreground": "#d19a66"
@@ -2045,6 +2044,58 @@
 				"foreground": "#ecc06e"
 			}
 		},
+		{
+			"scope": ["text"],
+			"settings": {
+				"foreground": "#cccccc"
+			}
+		},
+		{
+			"scope": ["meta.property-list.css"],
+			"settings": {
+				"foreground": "#ffffffa0"
+			}
+		},
+		{
+			"scope": [
+				"support.type.property-name.css",
+				"meta.property-name.css",
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#e06c75"
+			}
+		},
+		{
+			"scope": "keyword.other.unit",
+			"settings": {
+				"foreground": "#c69160"
+			}
+		},
+		{
+			"scope": "support.class.component",
+			"settings": {
+				"foreground": "#d19a66"
+			}
+		},
+		{
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#6a915c"
+			}
+		},
+		{
+			"scope": ["variable.argument.css"],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": ["meta.attribute.rust"],
+			"settings": {
+				"foreground": "#8bafde"
+			}
+		}
 	],
 	"type": "dark"
 }
