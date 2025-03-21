@@ -274,6 +274,7 @@
 		},
 		"*.declaration": "#e06c75",
 		"variable.declaration": "#e06c75",
+		"parameter.declaration": "#e06c75",
 		"variable.defaultLibrary": {
 			"foreground": "#ebedee"
 		},
