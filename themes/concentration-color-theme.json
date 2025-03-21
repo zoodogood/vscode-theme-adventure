@@ -78,9 +78,8 @@
 		"editorHoverWidget.background": "#252526",
 		"editorHoverWidget.border": "#454545",
 		"editorHoverWidget.foreground": "#cccccc",
-		"editorIndentGuide.activeBackground": "#707070",
 		"editorIndentGuide.activeBackground1": "#707070",
-		"editorIndentGuide.background": "#404040",
+		"editorIndentGuide.background1": "#404040",
 		"editorInfo.background": "#4490BF00",
 		"editorInfo.border": "#4490BF00",
 		"editorInfo.foreground": "#75beff",
@@ -1895,12 +1894,6 @@
 			"scope": "variable.parameter.misc.css",
 			"settings": {
 				"foreground": "#ffffffa0"
-			}
-		},
-		{
-			"scope": "meta.type.annotation",
-			"settings": {
-				"foreground": "#d19a66"
 			}
 		},
 		{
