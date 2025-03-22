@@ -375,20 +375,6 @@
 			}
 		},
 		{
-			"name": "regexp constant character-class",
-			"scope": "constant.other.character-class.regexp",
-			"settings": {
-				"foreground": "#e06c75"
-			}
-		},
-		{
-			"name": "regexp operator.quantifier",
-			"scope": "keyword.operator.quantifier.regexp",
-			"settings": {
-				"foreground": "#d19a66"
-			}
-		},
-		{
 			"name": "punctuation.definition",
 			"scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
 			"settings": {
@@ -1132,13 +1118,6 @@
 			}
 		},
 		{
-			"name": "Regular Expressions",
-			"scope": "string.regexp",
-			"settings": {
-				"foreground": "#ffffff30"
-			}
-		},
-		{
 			"name": "Escape Characters",
 			"scope": "constant.character.escape",
 			"settings": {
@@ -1325,13 +1304,6 @@
 			"scope": "entity.name.goto-label.php,support.other.php",
 			"settings": {
 				"foreground": "#ecc06e"
-			}
-		},
-		{
-			"name": "php regexp operator",
-			"scope": "keyword.operator.regexp.php",
-			"settings": {
-				"foreground": "#ffffff30"
 			}
 		},
 		{
@@ -1952,6 +1924,69 @@
 			"scope": ["meta.attribute.rust"],
 			"settings": {
 				"foreground": "#8bafde"
+			}
+		},
+		// MARK: Regular expression
+		{
+			"name": "Regular Expressions",
+			"scope": [
+				"string.regexp",
+				"keyword.operator.regexp.php",
+				"string.regexp keyword"
+			],
+			"settings": {
+				"foreground": "#ce9178"
+			}
+		},
+		{
+			"scope": ["string.regexp constant.character.escape"],
+			"settings": {
+				"foreground": "#ce9178"
+			}
+		},
+		{
+			"name": "regexp constant character-class",
+			"scope": [
+				"string.regexp constant.other.character-class.range",
+				"constant.other.character-class.regexp",
+				"support.other.escape.special.regexp",
+				"keyword.control.anchor.regexp",
+				"support.other.match.any.regexp",
+				"support.other.match.end.regexp",
+				"support.other.match.begin.regexp"
+			],
+			"settings": {
+				"foreground": "#ebedee"
+			}
+		},
+		{
+			"name": "regexp operator.quantifier",
+			"scope": "string.regexp keyword.operator.quantifier",
+			"settings": {
+				"foreground": "#72af5b"
+			}
+		},
+		{
+			"scope": ["string.regexp keyword.other"],
+			"settings": {
+				"foreground": "#e06c75"
+			}
+		},
+		{
+			"scope": [
+				"string.regexp punctuation.definition",
+				"punctuation.parenthesis.regexp",
+				"keyword.operator.lookbehind.regexp",
+				"keyword.operator.lookahead.regexp"
+			],
+			"settings": {
+				"foreground": "#e06c75"
+			}
+		},
+		{
+			"scope": "string.regexp meta.group.assertion",
+			"settings": {
+				"foreground": "#ffffffa0"
 			}
 		}
 	],
