@@ -272,6 +272,7 @@
 			"foreground": "#d19a66"
 		},
 		"*.declaration": "#e06c75",
+		"function.declaration.local": "#ffffff30",
 		"variable.declaration": "#ffffff30",
 		"parameter.declaration": "#ffffff30",
 		"variable.defaultLibrary": {
