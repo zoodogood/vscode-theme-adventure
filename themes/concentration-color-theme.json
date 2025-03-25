@@ -1927,7 +1927,7 @@
 				"foreground": "#8bafde"
 			}
 		},
-		// MARK: Regular expression
+		// MARK: Regex
 		{
 			"name": "Regular Expressions",
 			"scope": [
@@ -1986,6 +1986,29 @@
 		},
 		{
 			"scope": "string.regexp meta.group.assertion",
+			"settings": {
+				"foreground": "#ffffffa0"
+			}
+		},
+		// MARK: Declarations
+		{
+			"scope": "meta.object-binding-pattern-variable variable.object.property",
+			"settings": {
+				"foreground": "#ffffff30"
+			}
+		},
+		// MARK: Operators
+		{
+			"scope": "keyword.operator.assignment",
+			"settings": {
+				"foreground": "#ecc06e"
+			}
+		},
+		{
+			"scope": [
+				"meta.field.declaration keyword.operator.assignment",
+				"meta.var.expr keyword.operator.assignment"
+			],
 			"settings": {
 				"foreground": "#ffffffa0"
 			}
