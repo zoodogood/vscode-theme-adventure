@@ -2005,14 +2005,23 @@
 			}
 		},
 		{
+			"scope": "keyword.operator.expression.delete",
+			"settings": {
+				"foreground": "#ecc06e"
+			}
+		},
+		{
 			"scope": [
 				"meta.field.declaration keyword.operator.assignment",
-				"meta.var.expr keyword.operator.assignment"
+				"meta.var.expr keyword.operator.assignment",
+				"meta.parameters keyword.operator.assignment",
+				"meta.type.parameters keyword.operator.assignment",
+				"meta.enum.declaration keyword.operator.assignment"
 			],
 			"settings": {
 				"foreground": "#ffffffa0"
 			}
-		}
+		},
 	],
 	"type": "dark"
 }
