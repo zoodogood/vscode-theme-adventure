@@ -1,6 +1,6 @@
 
 
-# Adventure theme <img src = "./orange.png" width = "32px"></img>
+# Adventure theme ![Screenshot theme variant1](orange.png)
 Highlight comments, but dim keywords and operators using purple instead of red for errors.
 
 
