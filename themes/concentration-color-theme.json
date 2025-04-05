@@ -45,7 +45,7 @@
 		"editor.foldBackground": "#264f784d",
 		"editor.foreground": "#ffffffa0",
 		"editor.hoverHighlightBackground": "#264f7840",
-		"editor.inactiveSelectionBackground": "#3a3d41",
+		"editor.inactiveSelectionBackground": "#3a3d4180",
 		"editor.lineHighlightBackground": "#ffffff0A",
 		"editor.lineHighlightBorder": "#282828",
 		"editor.rangeHighlightBackground": "#ffffff0b",
@@ -54,7 +54,7 @@
 		"editor.selectionHighlightBackground": "#add6ff26",
 		"editor.selectionHighlightBorder": "#495F77",
 		"editor.wordHighlightBackground": "#575757b8",
-		"editor.wordHighlightStrongBackground": "#5c2700",
+		"editor.wordHighlightStrongBackground": "#5c270080",
 		"editorBracketMatch.background": "#0064001a",
 		"editorBracketMatch.border": "#888888",
 		"editorCodeLens.foreground": "#999999",
@@ -149,15 +149,15 @@
 		"menu.separatorBackground": "#474747",
 		"menubar.selectionBackground": "#e765081e",
 		"menubar.selectionForeground": "#ffffff",
-		"merge.commonContentBackground": "#282828",
-		"merge.commonHeaderBackground": "#383838",
-		"merge.currentContentBackground": "#27403B",
-		"merge.currentHeaderBackground": "#367366",
-		"merge.incomingContentBackground": "#28384B",
-		"merge.incomingHeaderBackground": "#395F8F",
+		"merge.commonContentBackground": "#28282880",
+		"merge.commonHeaderBackground": "#38383880",
+		"merge.currentContentBackground": "#27403B80",
+		"merge.currentHeaderBackground": "#36736680",
+		"merge.incomingContentBackground": "#28384B80",
+		"merge.incomingHeaderBackground": "#395F8F80",
 		"minimap.background": "#1d1d1d",
 		"minimap.errorHighlight": "#a089c7",
-		"minimap.findMatchHighlight": "#515c6a",
+		"minimap.findMatchHighlight": "#515c6a80",
 		"minimap.selectionHighlight": "#7414c42e",
 		"minimap.warningHighlight": "#a496bc",
 		"minimapGutter.addedBackground": "#54a238",
@@ -969,7 +969,7 @@
 			"name": "Attribute IDs",
 			"scope": "entity.other.attribute-name.id",
 			"settings": {
-				"fontStyle": "normal",
+				"fontStyle": "",
 				"foreground": "#ecc06e"
 			}
 		},
@@ -977,7 +977,7 @@
 			"name": "Attribute class",
 			"scope": "entity.other.attribute-name.class.css",
 			"settings": {
-				"fontStyle": "normal",
+				"fontStyle": "",
 				"foreground": "#d19a66"
 			}
 		},
