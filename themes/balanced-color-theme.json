@@ -1203,20 +1203,6 @@
 			}
 		},
 		{
-			"name": "[VSCODE-CUSTOM] JSON Property Name",
-			"scope": "support.type.property-name.json",
-			"settings": {
-				"foreground": "#e06c75"
-			}
-		},
-		{
-			"name": "[VSCODE-CUSTOM] JSON Punctuation for Property Name",
-			"scope": "support.type.property-name.json punctuation",
-			"settings": {
-				"foreground": "#e06c75"
-			}
-		},
-		{
 			"name": "laravel blade tag",
 			"scope": "text.html.laravel-blade source.php.embedded.line.html entity.name.tag.laravel-blade",
 			"settings": {
@@ -1910,12 +1896,6 @@
 			}
 		},
 		{
-			"scope": "entity.name.tag",
-			"settings": {
-				"foreground": "#6a915c"
-			}
-		},
-		{
 			"scope": ["variable.argument.css"],
 			"settings": {
 				"fontStyle": "italic"
@@ -1925,6 +1905,71 @@
 			"scope": ["meta.attribute.rust"],
 			"settings": {
 				"foreground": "#8bafde"
+			}
+		},
+		{
+			"name": "JSON keys",
+			"scope": [
+				"support.type.property-name.json",
+				"support.type.property-name.json punctuation"
+			],
+			"settings": {
+				"foreground": "#6a915c"
+			}
+		},
+
+		{
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#6a915c"
+			}
+		},
+		{
+			"scope": [
+				"meta.tag.structure.section.start entity.name.tag",
+				"meta.tag.structure.main.start entity.name.tag",
+				"meta.tag.structure.aside.start entity.name.tag",
+				"meta.tag.structure.footer.start entity.name.tag",
+				"meta.tag.structure.nav.start entity.name.tag",
+				"meta.tag.structure.header.start entity.name.tag", 
+				"meta.tag.structure.html.start entity.name.tag",
+				"meta.tag.custom.start entity.name.tag",
+				//
+				"meta.scope.tag.section meta.tag.start entity.name.tag",
+				"meta.scope.tag.main meta.tag.start entity.name.tag",
+				"meta.scope.tag.aside meta.tag.start entity.name.tag",
+				"meta.scope.tag.footer meta.tag.start entity.name.tag",
+				"meta.scope.tag.nav meta.tag.start entity.name.tag",
+				"meta.scope.tag.header meta.tag.start entity.name.tag",
+				"meta.scope.tag.html meta.tag.start entity.name.tag",
+				"meta.tag.start meta.tag.custom entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#c69160",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"meta.tag.object.canvas.start entity.name.tag",
+				"meta.tag.metadata.style.start entity.name.tag",
+				"meta.tag.metadata.script.start entity.name.tag",
+				"meta.scope.tag.canvas entity.name.tag",
+				"meta.scope.tag.style entity.name.tag",
+				"meta.style.svelte entity.name.tag",
+				"meta.scope.tag.script entity.name.tag",
+				"meta.script.svelte entity.name.tag",
+			],
+			"settings": {
+				"foreground": "#c69160",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": ["entity.name.tag.css", "entity.name.tag.custom.css", "entity.name.tag.wildcard.css"],
+			"settings": {
+				"foreground": "#6a915c",
+				"fontStyle": ""
 			}
 		},
 		// MARK: Regex
@@ -2021,7 +2066,7 @@
 			"settings": {
 				"foreground": "#ffffffa0"
 			}
-		},
+		}
 	],
 	"type": "dark"
 }
