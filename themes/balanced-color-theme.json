@@ -1463,7 +1463,7 @@
 		},
 		{
 			"name": "js class prop",
-			"scope": ["meta.property.object"],
+			"scope": ["meta.property.object", "support.variable.property"],
 			"settings": {
 				"foreground": "#e06c75"
 			}
