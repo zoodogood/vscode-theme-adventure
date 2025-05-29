@@ -20,6 +20,9 @@
 	"categories": [
 		"Themes"
 	],
+	"scripts": {
+		"build-and-install-locally": "bun run ./build-and-install-locally.ts"
+	},
 	"contributes": {
 		"themes": [
 			{
