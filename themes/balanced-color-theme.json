@@ -2044,7 +2044,7 @@
 		},
 		// MARK: Operators
 		{
-			"scope": "keyword.operator.assignment",
+			"scope": ["keyword.operator.assignment", "keyword.operator.increment", "keyword.operator.decrement"],
 			"settings": {
 				"foreground": "#ecc06e"
 			}
