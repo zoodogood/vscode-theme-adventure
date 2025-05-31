@@ -6,7 +6,7 @@ Highlight comments, but dim keywords and operators using purple instead of red f
 
 Concentration vatiant:
 ![Screenshot theme variant1](screenshot.theme1.png)
-Balanced variant
+Balanced variant:
 ![Screenshot theme variant2](screenshot.theme2.png)
 
 ## Thanks!

@@ -2,13 +2,15 @@
 	"name": "zoodogood-respect-comments",
 	"displayName": "Adventure theme",
 	"description": "Highlight comments, but dim keywords and operators using purple instead of red for errors",
-	"version": "0.0.29",
+	"version": "0.0.30",
 	"icon": "./orange.png",
 	"publisher": "zoodogood",
 	"files": [
 		"themes/**",
 		"LICENSE",
-		"orange.png"
+		"orange.png",
+		"screenshot.theme1.png",
+		"screenshot.theme2.png"
 	],
 	"engines": {
 		"vscode": "^1.97.0"
